@@ -1,10 +1,12 @@
 .profile__info-text {
   display: flex;
   flex-direction: column;
+  row-gap: 16px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .profile__info-text {
     margin-left: 26px;
+    row-gap: 14px;
   }
 }

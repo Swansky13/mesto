@@ -4,8 +4,8 @@
   margin: 51px auto 0;
   justify-items: center;
   grid-template-columns: repeat(3, 1fr);
-  row-gap: 17px;
-  column-gap: 20px;
+  row-gap: 20px;
+  column-gap: 17px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
