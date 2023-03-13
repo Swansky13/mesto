@@ -1,0 +1,30 @@
+.profile__info_add_button {
+  position: absolute;
+  top: 35px;
+  right: 0;
+  background-image: url(../../../../images/AddButton.svg);
+  background-size: cover;
+  width: 150px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  transition: ease 0.5s;
+}
+
+.profile__info_add_button:hover {
+  opacity: 0.6;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .profile__info_add_button {
+    background-image: url(../../../../images/AddButtonMobile.svg);
+    position: static;
+    width: 282px;
+    height: 50px;
+    top: 236px;
+    margin: 36px auto 0;
+  }
+}

@@ -1,0 +1,24 @@
+.profile__info_edit_button {
+  background-image: url(../../../../images/profileButton.svg);
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 15px 0 0 18px;
+  padding: 0;
+  transition: ease 0.5s;
+}
+
+.profile__info_edit_button:hover {
+  opacity: 0.6;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .profile__info_edit_button {
+    width: 18px;
+    height: 18px;
+    margin: 8px 0px 0 10px;
+  }
+}
