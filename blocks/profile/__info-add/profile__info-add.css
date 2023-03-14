@@ -1,8 +1,8 @@
-.profile__info_add_button {
+.profile__info-add {
   position: absolute;
   top: 35px;
   right: 0;
-  background-image: url(../../../../images/AddButton.svg);
+  background-image: url(../../../images/AddButton.svg);
   background-size: cover;
   width: 150px;
   height: 50px;
@@ -14,13 +14,13 @@
   transition: ease 0.5s;
 }
 
-.profile__info_add_button:hover {
+.profile__info-add:hover {
   opacity: 0.6;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .profile__info_add_button {
-    background-image: url(../../../../images/AddButtonMobile.svg);
+  .profile__info-add {
+    background-image: url(../../../images/AddButtonMobile.png);
     position: static;
     width: 282px;
     margin: 36px auto 0;

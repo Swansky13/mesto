@@ -1,5 +1,5 @@
-.element__content_like_button {
-  background-image: url(../../../../images/LikeButton.svg);
+.element__content-like {
+  background-image: url(../../../images/LikeButton.svg);
   background-size: cover;
   width: 22px;
   height: 19px;
@@ -11,6 +11,6 @@
   transition: ease 0.5s;
 }
 
-.element__content_like_button:hover {
+.element__content-like:hover {
   opacity: 0.5;
 }
