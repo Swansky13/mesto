@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <title>Mesto</title>
+    <title lang="en">Mesto</title>
   </head>
 
   <body>
     <div class="page">
       <header class="header">
         <img
-          class="logo header__logo"
+          class="header__logo"
           src="./images/Vector.svg"
           alt="логотип сервиса" />
       </header>
@@ -42,7 +42,9 @@
             <div class="element__content">
               <h2 class="element__content-title">Карачаевск</h2>
               <button
-                class="element__content-like element__content-like_active"
+                class="element__content-like"
+                aria-label="лайк"
+                title="кнопка лайка"
                 type="button"></button>
             </div>
           </div>
@@ -52,8 +54,9 @@
             <div class="element__content">
               <h2 class="element__content-title">Гора Эльбрус</h2>
               <button
-                class="element__content-like element__content-like_active"
-                type="button"></button>
+                class="element__content-like"
+                type="button">
+              </button>
             </div>
           </div>
 
@@ -62,7 +65,7 @@
             <div class="element__content">
               <h2 class="element__content-title">Домбай</h2>
               <button
-                class="element__content-like element__content-like_active"
+                class="element__content-like"
                 type="button"></button>
             </div>
           </div>
@@ -72,7 +75,7 @@
             <div class="element__content">
               <h2 class="element__content-title">Гора Эльбрус</h2>
               <button
-                class="element__content-like element__content-like_active"
+                class="element__content-like"
                 type="button"></button>
             </div>
           </div>
@@ -82,7 +85,7 @@
             <div class="element__content">
               <h2 class="element__content-title">Домбай</h2>
               <button
-                class="element__content-like element__content-like_active"
+                class="element__content-like"
                 type="button"></button>
             </div>
           </div>
@@ -95,7 +98,7 @@
             <div class="element__content">
               <h2 class="element__content-title">Карачаево-Черкесия</h2>
               <button
-                class="element__content-like element__content-like_active"
+                class="element__content-like"
                 type="button"></button>
             </div>
           </div>
@@ -103,7 +106,7 @@
       </main>
 
       <footer class="footer">
-        <p class="footer__copyright">© 2023 Mesto Russia</p>
+        <p class="footer__copyright" lang="en">© 2023 Mesto Russia</p>
       </footer>
       <!--start popup-->
       <div class="popup">
@@ -111,10 +114,10 @@
           <button class="popup__button-close" type="button"></button>
           <form class="popup__form" name="form">
             <h2 class="popup__form-heading">Редактировать профиль</h2>
-            <div class="popup__form-fields">
+            <!--<div class="popup__form-fields">-->
               <input
                 type="text"
-                class="popup__form-item"
+                class="popup__form-item popup__form-item_name"
                 id="heading"
                 name="heading"
                 value="Жак-Ив Кусто"
@@ -122,13 +125,13 @@
                 required />
               <input
                 type="text"
-                class="popup__form-item"
+                class="popup__form-item popup__form-item_subheading"
                 id="subheading"
                 name="subheading"
                 value="Исследователь океана"
                 placeholder="Краткое описание"
                 required />
-            </div>
+            <!--</div>-->
             <input
               class="popup__form-button-save"
               name="button"

@@ -1,3 +1,12 @@
 .element__content-like_active {
-    
+  background-image: url(../../../../images/LikeButtonActive.svg);
+  background-size: cover;
+  width: 22px;
+  height: 19px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 30px 0 0;
+  padding: 0;
+  opacity: 0;
 }
