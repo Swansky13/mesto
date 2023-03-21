@@ -22,7 +22,7 @@
           <img
             class="profile__avatar"
             src="./images/imageKusto.svg"
-            alt="кусто"/>
+            alt="кусто" />
           <div class="profile__info">
             <div class="profile__info-text">
               <h1 class="profile__info-name">Жак-Ив Кусто</h1>
@@ -53,10 +53,7 @@
             <img class="element__img" src="./images/Elbrus.jpg" alt="Эльбрус" />
             <div class="element__content">
               <h2 class="element__content-title">Гора Эльбрус</h2>
-              <button
-                class="element__content-like"
-                type="button">
-              </button>
+              <button class="element__content-like" type="button"></button>
             </div>
           </div>
 
@@ -64,9 +61,7 @@
             <img class="element__img" src="./images/Dombay.jpg" alt="Домбай" />
             <div class="element__content">
               <h2 class="element__content-title">Домбай</h2>
-              <button
-                class="element__content-like"
-                type="button"></button>
+              <button class="element__content-like" type="button"></button>
             </div>
           </div>
 
@@ -74,9 +69,7 @@
             <img class="element__img" src="./images/Elbrus.jpg" alt="Эльбрус" />
             <div class="element__content">
               <h2 class="element__content-title">Гора Эльбрус</h2>
-              <button
-                class="element__content-like"
-                type="button"></button>
+              <button class="element__content-like" type="button"></button>
             </div>
           </div>
 
@@ -84,9 +77,7 @@
             <img class="element__img" src="./images/Dombay.jpg" alt="Домбай" />
             <div class="element__content">
               <h2 class="element__content-title">Домбай</h2>
-              <button
-                class="element__content-like"
-                type="button"></button>
+              <button class="element__content-like" type="button"></button>
             </div>
           </div>
 
@@ -97,9 +88,7 @@
               alt="Карачаево" />
             <div class="element__content">
               <h2 class="element__content-title">Карачаево-Черкесия</h2>
-              <button
-                class="element__content-like"
-                type="button"></button>
+              <button class="element__content-like" type="button"></button>
             </div>
           </div>
         </section>
@@ -112,28 +101,26 @@
       <div class="popup">
         <div class="popup__container">
           <button class="popup__button-close" type="button"></button>
-          <form class="popup__form" name="form">
-            <h2 class="popup__form-heading">Редактировать профиль</h2>
-            <!--<div class="popup__form-fields">-->
-              <input
-                type="text"
-                class="popup__form_type  popup__form_type_name"
-                id="heading"
-                name="heading"
-                value="Жак-Ив Кусто"
-                placeholder="Имя"
-                required />
-              <input
-                type="text"
-                class="popup__form_type popup__form_type_subheading"
-                id="subheading"
-                name="subheading"
-                value="Исследователь океана"
-                placeholder="Краткое описание"
-                required />
-            <!--</div>-->
+          <form class="form" name="form">
+            <h2 class="form__title">Редактировать профиль</h2>
             <input
-              class="popup__form-button-save"
+              type="text"
+              class="form__input form__input_type_name"
+              id="heading"
+              name="heading"
+              value="Жак-Ив Кусто"
+              placeholder="Имя"
+              required />
+            <input
+              type="text"
+              class="form__input form__input_type_subheading"
+              id="subheading"
+              name="subheading"
+              value="Исследователь океана"
+              placeholder="Краткое описание"
+              required />
+            <input
+              class="form__button-save"
               name="button"
               type="submit"
               value="Сохранить" />

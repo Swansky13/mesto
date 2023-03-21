@@ -1,9 +1,9 @@
 let openPopup = document.querySelector(".profile__info-edit");
 let popup = document.querySelector(".popup");
 let closePopup = popup.querySelector(".popup__button-close");
-let form = document.querySelector(".popup__form");
-let nameInput = form.querySelector(".popup__form_type_name");
-let jobInput = form.querySelector(".popup__form_type_subheading");
+let form = document.querySelector(".form");
+let nameInput = form.querySelector(".form__input_type_name");
+let jobInput = form.querySelector(".form__input_type_subheading");
 let profileName = document.querySelector(".profile__info-name");
 let profileJob = document.querySelector(".profile__info-job");
 
